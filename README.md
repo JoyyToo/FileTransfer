@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a File Transfer App. A user can upload and download files.
 
-Things you may want to cover:
+## External dependencies
+This web application is written with Ruby using the Ruby on Rails framework.
 
-* Ruby version
+## Installation
+Once you have Ruby, and Rails installed. Take the following steps to install the application:
+ - Run `git clone https://github.com/JoyyToo/FileTransfer.git` to clone this repository
 
-* System dependencies
+ - Run `bundle install` to install all required gems
 
-* Configuration
 
-* Database creation
+## To create the databases:
+- Run
+   - `rails db:create`
+   
+   - `rails db:migrate`
 
-* Database initialization
+## How to run the test suite
+- Run test with `rspec spec`
 
-* How to run the test suite
+## Run the server
+- Run `rails s`
 
-* Services (job queues, cache servers, search engines, etc.)
+### Heroku link 
 
-* Deployment instructions
-
-* ...
